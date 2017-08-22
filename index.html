@@ -11,33 +11,33 @@
   <body>
     <h2>Register a New Account</h2>
     <div class="container">
-      <div class="row accounts">
-        <div class="col-md-6">
+      <form id="register">
+        <div class="row accounts">
 
-          <form id="register">
+          <div class="col-md-6">
             <label>Name:</label>
             <input type="text" name="name" id="name">
             <br>
             <label>Initial Deposit:</label>
             <input type="text" name="initial deposit" id="initial">
             <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          </div>
+            <div class="col-md-6">
+                <label>Withdrawl Amount:</label>
+                <input type="number" name="withdrawl" id="withdrawl">
+                <br>
+                <label>Deposit Amount:</label>
+                <input type="number" name="deposit" id="deposit">
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
         </div>
-
-
-    <div class="col-md-6">
-      <form id="transfer">
-        <label>Withdrawl Amount:</label>
-        <input type="number" name="withdrawl" id="withdrawl">
-        <br>
-        <label>Deposit Amount:</label>
-        <input type="number" name="deposit" id="deposit">
-        <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-    </div>
-  </div>
+
+
+
+
 
     <div class="row balance">
       <div class="col-md-12">
